@@ -11,6 +11,7 @@ module.exports = {
     'renovate-tests/cocoapods1',
     'renovate-tests/gomod1',
     'LisinIwan/Test-App',
+    '*',
   ],
   packageRules: [
     {
