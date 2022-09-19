@@ -9,6 +9,12 @@ module.exports = {
   repositories: [
     'LisinIwan/Test-App',
   ],
+  hostRules: [
+    {
+      "domainName": "github.com",
+      "token": "blablalba"
+    }
+  ],
   packageRules: [
     {
       description: 'lockFileMaintenance',
